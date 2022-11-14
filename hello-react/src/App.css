@@ -1,0 +1,98 @@
+.App {
+  text-align: centre;
+  background-color: white;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  margin: 2%;
+}
+
+.TopHalf {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  width: 100%;
+  background-color: #212130;
+  color: white;
+}
+
+.App-logo {
+  display: flex;
+  justify-content: space-between;
+  height: 5vmin;
+  pointer-events: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 2%;
+}
+
+.UpperText {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 50%;
+  justify-content: left;
+  align-items: baseline;
+  
+}
+
+.SayHello {
+  font-size: 100px;
+  
+}
+
+.awesome {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 5%;
+  
+
+
+
+}
+
+
+
+.BottomHalf {
+  display: flex;
+  color: black;
+  justify-content: center;
+  padding: 5%;
+}
+
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
